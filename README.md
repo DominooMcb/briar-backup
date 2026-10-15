@@ -1,9 +1,12 @@
-# My Custom Briar Fork
+# ⚠️ Unofficial Briar Fork (Modified Version)
 
-⚠️ **Note on this fork:** This is a modified version of Briar. For now, the sole change is setting `android:allowBackup="true"` in the manifest to enable Android system backups. More changes may be added later.
+**This is NOT the official Briar application.** This is a personal, unofficial fork modified for custom use. 
+
+* **Current changes:** The only modification for now is setting `android:allowBackup="true"` in the Android Manifest to enable system backups. More changes may follow in the future.
+* **Disclaimer:** Use this fork at your own risk. It is not supported, endorsed, or maintained by the official Briar Project team.
 
 ---
-### here is original Briar README
+
 
 
 
