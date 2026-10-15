@@ -46,7 +46,7 @@
 
 	<application
 		android:name="org.briarproject.briar.android.BriarApplicationImpl"
-		android:allowBackup="false"
+		android:allowBackup="true"
 		android:dataExtractionRules="@xml/backup_extraction_rules"
 		android:fullBackupContent="@xml/backup_rules"
 		android:icon="@mipmap/ic_launcher_round"
