@@ -1,3 +1,12 @@
+# My Custom Briar Fork
+
+⚠️ **Note on this fork:** This is a modified version of Briar. For now, the sole change is setting `android:allowBackup="true"` in the manifest to enable Android system backups. More changes may be added later.
+
+---
+### here is original Briar README
+
+
+
 # Briar
 Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate.
 
