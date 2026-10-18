@@ -24,11 +24,11 @@ jobs:
 
       - name: Fix Manifest Merger and Strings Conflict
         run: |
-          # 1. Dodaj przestrzeń nazw tools do tagu <manifest>
-          sed -i 's/<manifest/<manifest xmlns:tools="http:\/\/://android.com\/tools"/' briar-android/src/main/AndroidManifest.xml
+          # 1. Dodaj przestrzeń nazw tools do tagu <manifest> za pomocą bezpiecznego separatora |
+          sed -i 's|<manifest|<manifest xmlns:tools="http://android.com"|' briar-android/src/main/AndroidManifest.xml
           
           # 2. Dodaj tools:replace do tagu <application> aby rozwiazac konflikt allowBackup
-          sed -i 's/<application/<application tools:replace="android:allowBackup"/' briar-android/src/main/AndroidManifest.xml
+          sed -i 's|<application|<application tools:replace="android:allowBackup"|' briar-android/src/main/AndroidManifest.xml
           
           # 3. Wycisz rygorystyczne bledy formatowania w strings.xml modyfikujac gradle.properties
           echo "android.disableResourceValidation=true" >> gradle.properties
