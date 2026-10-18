@@ -6,4 +6,4 @@ include ':briar-api'
 include ':briar-core'
 include ':briar-android'
 include ':briar-headless'
-}
+
